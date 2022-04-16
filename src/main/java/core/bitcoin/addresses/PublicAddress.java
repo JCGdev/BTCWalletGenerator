@@ -15,7 +15,7 @@ public abstract class PublicAddress extends BitcoinAddress{
 	// P2SH --> Pay-to-Script-Hash
 	// BENCH32 --> Native SegWit
 	public static enum AddressType {
-		P2PK, P2PKH, P2SH, BENCH32
+		P2PK, P2PKH, P2SH, BECH32
 		
 	}
 	
