@@ -1,8 +1,10 @@
 package main.java.core.bitcoin.addresses;
 
+import javax.crypto.SecretKey;
+
 import main.java.core.utils.Hexadecimal;
 
-public abstract class BitcoinAddress {
+public abstract class BitcoinAddress implements SecretKey {
 
 	private byte[] address = new byte[32];
 	

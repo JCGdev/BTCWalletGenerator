@@ -1,5 +1,5 @@
 package main.java.core.bitcoin.addresses.formats;
 
-public class Bech32 {
+public class Bech32Address {
 
 }

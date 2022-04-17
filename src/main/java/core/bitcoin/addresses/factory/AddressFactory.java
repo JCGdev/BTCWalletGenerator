@@ -8,5 +8,6 @@ public interface AddressFactory {
 	
 	public BitcoinAddress create();
 	
+	
 
 }
