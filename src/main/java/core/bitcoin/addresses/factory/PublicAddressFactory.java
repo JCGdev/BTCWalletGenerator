@@ -21,7 +21,7 @@ public abstract class PublicAddressFactory implements AddressFactory {
 
 	
 	public PublicAddressFactory(int sizeInBytes) {
-		this.privateAddress = new PrivateAddressFactory(256).create();
+		this.privateAddress = new PrivateAddressFactory(sizeInBytes).create();
 	}
 
 	
